@@ -1,0 +1,15 @@
+//
+//  RNEventListener.pch
+//  RNVideoPlayer
+//
+//  Created by Anis Derbel on 24/09/2018.
+//  Copyright © 2018 DC5 Admin (MACMINI032). All rights reserved.
+//
+
+#ifndef RNEventListener_pch
+#define RNEventListener_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* RNEventListener_pch */

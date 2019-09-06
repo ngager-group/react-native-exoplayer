@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-exoplayer",
+        "scope": null,
+        "escapedName": "react-native-exoplayer",
+        "name": "react-native-exoplayer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/anisderbel/Desktop/awesome-ngager-react"
+    ]
+  ],
+  "_from": "react-native-exoplayer@latest",
+  "_id": "react-native-exoplayer@1.3.4",
+  "_inCache": true,
+  "_location": "/react-native-exoplayer",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-exoplayer-1.3.4.tgz_1501485210147_0.8893529665656388"
+  },
+  "_npmUser": {
+    "name": "ngager-group",
+    "email": "awesome.ngager@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-exoplayer",
+    "scope": null,
+    "escapedName": "react-native-exoplayer",
+    "name": "react-native-exoplayer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-exoplayer/-/react-native-exoplayer-1.3.4.tgz",
+  "_shasum": "ac58c9d4ee66c2dc1f4fc884b9f3acf5448040e4",
+  "_shrinkwrap": null,
+  "_spec": "react-native-exoplayer",
+  "_where": "/Users/anisderbel/Desktop/awesome-ngager-react",
+  "author": {
+    "name": "Ngager Awesome Group"
+  },
+  "bugs": {
+    "url": "https://github.com/ngager-group/react-native-exoplayer/issues"
+  },
+  "dependencies": {},
+  "description": "React native video player component, used for Android, iOS.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ac58c9d4ee66c2dc1f4fc884b9f3acf5448040e4",
+    "tarball": "https://registry.npmjs.org/react-native-exoplayer/-/react-native-exoplayer-1.3.4.tgz"
+  },
+  "gitHead": "57243621017a67037ca0d3d291df877e306cefb9",
+  "homepage": "https://github.com/ngager-group/react-native-exoplayer/blob/master/README.md",
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "photo",
+    "video",
+    "videos",
+    "image",
+    "images",
+    "player"
+  ],
+  "license": "NGAGER",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "ngager-group",
+      "email": "awesome.ngager@gmail.com"
+    }
+  ],
+  "name": "react-native-exoplayer",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.30.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngager-group/react-native-exoplayer.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
