@@ -72,4 +72,6 @@ var VideoPlayer = require('react-native-exoplayer');
  * The method will launch native module
  * @param {String} url Video link
  */
-VideoPlayer.showVideoPlayer(url);
+VideoPlayer.showVideoPlayer(url).then(() => {
+  // onReachEnd
+});
