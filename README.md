@@ -42,7 +42,7 @@ project(':react-native-exoplayer').projectDir = new File(settingsDir, '../node_m
 
 dependencies {
     ...
-    compile project(':react-native-exoplayer')
+    implementation project(':react-native-exoplayer')
 }
 ```
 ```java
