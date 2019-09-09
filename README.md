@@ -66,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
 ## Usage
 
 ```javascript
-var VideoPlayer = require('ngager-group/react-native-exoplayer');
+var VideoPlayer = require('react-native-exoplayer');
 
 /**
  * The method will launch native module
