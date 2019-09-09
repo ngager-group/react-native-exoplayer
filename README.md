@@ -9,16 +9,16 @@ React native video player component, used for Android, iOS
 
 ## Install
 
-`npm install react-native-exoplayer --save`
+`npm install ngager-group/react-native-exoplayer --save`
 
 ## Link
 
-`react-native link react-native-exoplayer`
+`react-native link ngager-group/react-native-exoplayer`
 
 OR
 
 Use [rnpm](https://github.com/rnpm/rnpm) to automatically complete the installation:  
-`rnpm link react-native-exoplayer`
+`rnpm link ngager-group/react-native-exoplayer`
 
 or link manually like so:
 
@@ -66,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
 ## Usage
 
 ```javascript
-var VideoPlayer = require('react-native-exoplayer');
+var VideoPlayer = require('ngager-group/react-native-exoplayer');
 
 /**
  * The method will launch native module
