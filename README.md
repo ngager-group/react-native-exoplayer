@@ -13,12 +13,12 @@ React native video player component, used for Android, iOS
 
 ## Link
 
-`react-native link ngager-group/react-native-exoplayer`
+`react-native link react-native-exoplayer`
 
 OR
 
 Use [rnpm](https://github.com/rnpm/rnpm) to automatically complete the installation:  
-`rnpm link ngager-group/react-native-exoplayer`
+`rnpm link react-native-exoplayer`
 
 or link manually like so:
 
