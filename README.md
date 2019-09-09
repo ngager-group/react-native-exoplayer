@@ -49,7 +49,7 @@ dependencies {
 // file: android/app/src/main/java/com/<...>/MainApplication.java
 ...
 
-import com.wog.videoplayer.VideoPlayerPackage;; // <-- add this import
+import com.wog.videoplayer.VideoPlayerPackage; // <-- add this import
 
 public class MainApplication extends Application implements ReactApplication {
     @Override
