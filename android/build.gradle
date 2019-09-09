@@ -26,9 +26,9 @@ android {
 
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.facebook.react:react-native:+'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.google.android.exoplayer:exoplayer-core:2.8.0'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.8.0'
     implementation 'com.google.android.exoplayer:exoplayer-dash:2.8.0'
