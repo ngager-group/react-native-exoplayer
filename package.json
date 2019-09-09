@@ -2,7 +2,7 @@
   "name": "react-native-exoplayer",
   "version": "1.0.0",
   "description": "React native video player using exoplayer",
-  "main": "index.android.js",
+  "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
