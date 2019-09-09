@@ -23,7 +23,7 @@ INJECTED from /Users/toannguyen/Documents/projects/awesome-ngager-react/node_mod
 		ADDED from /Users/toannguyen/Documents/projects/awesome-ngager-react/node_modules/react-native-exoplayer/android/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/toannguyen/Documents/projects/awesome-ngager-react/node_modules/react-native-exoplayer/android/src/main/AndroidManifest.xml:5:5-7:19
-activity#com.wog.videoplayer.ExoPlayer
+activity#com.ngager.videoplayer.ExoPlayer
 ADDED from /Users/toannguyen/Documents/projects/awesome-ngager-react/node_modules/react-native-exoplayer/android/src/main/AndroidManifest.xml:6:9-56
 	android:name
 		ADDED from /Users/toannguyen/Documents/projects/awesome-ngager-react/node_modules/react-native-exoplayer/android/src/main/AndroidManifest.xml:6:19-44

@@ -1,4 +1,4 @@
-package com.wog.videoplayer;
+package com.ngager.videoplayer;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

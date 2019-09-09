@@ -1,4 +1,4 @@
-package com.wog.videoplayer;
+package com.ngager.videoplayer;
 
 /**
  * Created by anisderbel on 02/10/2018.

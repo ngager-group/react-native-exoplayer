@@ -1,4 +1,4 @@
-package com.wog.videoplayer;
+package com.ngager.videoplayer;
 
 import android.app.Activity;
 import android.content.Intent;
