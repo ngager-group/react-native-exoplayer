@@ -3,7 +3,7 @@
     package="com.ngager.videoplayer">
 
     <application>
-        <activity android:name=".ExoPlayer"></activity>
+        <activity android:name=".ExoPlayer" android:configChanges="orientation|screenSize|layoutDirection"></activity>
     </application>
 
 </manifest>
