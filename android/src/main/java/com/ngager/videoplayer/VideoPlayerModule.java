@@ -4,9 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.support.v4.media.session.MediaControllerCompat;
-import android.support.v4.media.session.MediaSessionCompat;
-import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
 
 import com.facebook.react.bridge.ActivityEventListener;
@@ -21,8 +18,6 @@ import com.facebook.react.bridge.ReactMethod;
 public class VideoPlayerModule extends ReactContextBaseJavaModule implements ActivityEventListener,VideoClassListener.VideoListener {
 
     public final int VIDEO_CODE = 1;
-    MediaSessionCompat mMediaSession;
-    PlaybackStateCompat.Builder mStateBuilder;
     Promise videoPromise;
 
 
