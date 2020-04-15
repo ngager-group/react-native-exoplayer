@@ -1,24 +1,59 @@
 {
-  "name": "react-native-exoplayer",
-  "version": "1.0.0",
-  "description": "React native video player using exoplayer",
-  "main": "index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_args": [
+    [
+      "github:ngager-group/react-native-exoplayer",
+      "/Users/toannguyen/Documents/projects/awesome-ngager-react"
+    ]
+  ],
+  "_from": "github:ngager-group/react-native-exoplayer",
+  "_id": "react-native-exoplayer@github:ngager-group/react-native-exoplayer#dc2752246068a1bed13a63d1bdbaa0bb0fbbcc13",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-exoplayer",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/ngager-group/react-native-exoplayer.git"
+    "raw": "github:ngager-group/react-native-exoplayer",
+    "rawSpec": "github:ngager-group/react-native-exoplayer",
+    "saveSpec": "github:ngager-group/react-native-exoplayer",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:ngager-group/react-native-exoplayer#dc2752246068a1bed13a63d1bdbaa0bb0fbbcc13",
+  "_spec": "github:ngager-group/react-native-exoplayer",
+  "_where": "/Users/toannguyen/Documents/projects/awesome-ngager-react",
+  "author": {
+    "name": "Ngager"
+  },
+  "bugs": {
+    "url": "https://github.com/ngager-group/react-native-exoplayer/issues"
+  },
+  "description": "React native video player using exoplayer",
+  "homepage": "https://github.com/ngager-group/react-native-exoplayer#readme",
   "keywords": [
     "react",
     "native",
     "exoplayer"
   ],
-  "author": "Ngager",
+  "files": [
+    "android",
+    "ios",
+    "index.android.js",
+    "index.ios.js",
+    "react-native-exoplayer.podspec"
+  ],
   "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/ngager-group/react-native-exoplayer/issues"
+  "main": "index",
+  "name": "react-native-exoplayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngager-group/react-native-exoplayer.git"
   },
-  "homepage": "https://github.com/ngager-group/react-native-exoplayer#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
