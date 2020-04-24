@@ -28,8 +28,9 @@ RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url
                   resolver:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
 {
-    
-   
+
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+
     self.videoURL = [NSURL URLWithString:url];
     //AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
@@ -38,20 +39,20 @@ RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url
     self.playerViewController = [AVPlayerViewController new];
     _playerViewController.player = player;
     _playerViewController.showsPlaybackControls = YES;
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
-     
+
                                             selector:@selector(playerItemDidReachEnd:)
                                             name:AVPlayerItemDidPlayToEndTimeNotification
                                             object:[_playerViewController.player currentItem]];
 
-  
+
     resolver = resolve;
     rejecter = reject;
-    
+
   //  _callbacks = [NSMutableArray new];
  //   [_callbacks addObject:callback];
-    
+
 //    callback(@[[NSNull null],body:@{ @"close": @true}]);
    // callback(@[[NSNull null], @true]);
 
@@ -66,20 +67,20 @@ RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url
 }
 
 - (void)playerItemDidReachEnd:(NSNotification *)notification {
-    
-    
+
+
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:AVPlayerItemDidPlayToEndTimeNotification
                                                   object:notification.object];
-   
-    
+
+
     resolver(@"success");
    // rejecter(@"errorr",@"messaage",@"errorrrlast");
      NSLog(@"IT REACHED THE END");
-    
+
    // rejecter = nil;
    // resolver = nil;
-    
+
 //    UIAlertView *alert = [[UIAlertView alloc]
 //                          initWithTitle:@"Make an informed choice"
 //                          message:nil
@@ -87,12 +88,12 @@ RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url
 //                          cancelButtonTitle:@"Cancel"
 //                          otherButtonTitles:@"OK", nil];
 //    [alert show];
-    
+
    // [self sendEventWithName:@"onEndReached" body:@{ @"close": @true}];
 
 //  [self sendEventWithName:@"onEndReached" body:@"Hello"];
-  
-    
+
+
    // RCTResponseSenderBlock callback = _callbacks[0];
    // callback(@[@true]);
     //Remove the callback
